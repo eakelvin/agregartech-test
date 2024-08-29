@@ -41,15 +41,15 @@ const Login = () => {
             setLoading(true);
             const response = await axios.post(
                 'http://165.22.70.167:9100/apicore/v1/users/auth',
-                form
+                form,
             );
             console.log('Data:', response.data);
             console.log('Status:', response.status);
             console.log('Text:', response.statusText);
             toast.success("Login Successful");
+            push('/welcome');
         } catch (error: any) {
             console.log(error);
-            // console.error('Axios error:', error.response?.data || error.message);
             toast.error("Login Unsuccessful, Please try again!");
         } finally {
             setLoading(false);
