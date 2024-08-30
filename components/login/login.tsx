@@ -67,7 +67,7 @@ const Login = () => {
 
             <div className="w-full bg-white lg:w-1/2 flex items-center justify-center">
                 <div className="max-w-md w-full p-5">
-                    <h1 className="self-start text-[26px] font-bold mb-3 text-[#3751FE]">
+                    <h1 className="self-start text-[20px] md:text-[26px] font-bold mb-3 text-[#3751FE]">
                         Artificial Intelligence Driving Results For The Travel Industry
                     </h1>
                     <h1 className="text-sm font-semibold mb-6 text-[#000000]">
