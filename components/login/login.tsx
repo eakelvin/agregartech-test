@@ -50,7 +50,7 @@ const Login = () => {
             push('/welcome');
         } catch (error: any) {
             console.log(error);
-            toast.error("Login Unsuccessful, Please try again!");
+            toast.error("Wrong Credentials, Please try again!");
         } finally {
             setLoading(false);
             setForm({
