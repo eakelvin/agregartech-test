@@ -178,7 +178,7 @@ const Login = () => {
                 </div>
             </div>
 
-            <div className="hidden lg:flex items-center justify-center flex-1 bg-[#E5E5E5]">
+            <div className="hidden lg:flex flex-1 bg-[#E5E5E5]">
                 <Image
                     src={image}
                     alt=''
